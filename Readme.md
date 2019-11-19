@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Александр Кривенчик](https://up.htmlacademy.ru/htmlcss/26/user/469359).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Хмара](https://htmlacademy.ru/profile/teacher/students/339763).
 
 ---
 
