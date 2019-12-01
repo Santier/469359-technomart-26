@@ -61,7 +61,17 @@
     </section>
     <h1>Перфораторы</h1>
     <section>
-      <form method="get" action="https://echo.htmlacademy.ru">
+      <form class="sort-form" method="get" action="https://echo.htmlacademy.ru" oninput="costoutput.value=costcount.value">
+        <div class="half-width">
+          <p>Фильтр:</p>
+          <b>Цена:</b>
+          <input type="range" id="costcount" name="costcount" min="0" max="30000" step="1" value="1" multiple="">
+        </div>
+        <div class="half-width output-area">
+          <output class="first-number" name="costoutput">0</output>
+          <span>-</span>
+          <output class="second-number" name="result">30000</output>
+        </div>
         <fieldset>
           <legend>Производители:</legend>
           <ul>
@@ -104,6 +114,14 @@
       </form>
     </section>
     <section>
+        <div class="sort-menu">
+            <b>сортировка:</b>
+            <a href="#">по цене</a>
+            <a href="#">по типу</a>
+            <a href="#">по функционалу</a>
+            <a href="#">вверх</a>
+            <a href="#">вниз</a>
+          </div>
       <ul>
         <li>
           <h2>Перфоратор Bosch BFG 3000</h2>
@@ -151,7 +169,19 @@
           <span>25500 Р.</span>
         </li>
       </ul>
+      <div class="paginator">
+          <a href="">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="">следующая</a>
+        </div>
     </section>
+    <div class="about-perforator">
+      <h2>пара слов о перфораторах</h2>
+      <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+         Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В<br>
+         ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+    </div>
   </main>
   <footer>
     <div class="top-row">
